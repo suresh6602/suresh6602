@@ -210,7 +210,7 @@
       <img src="https://github-readme-stats-fast.vercel.app/api?username=suresh6602&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="100%" alt="GitHub Stats" />
     </td>
     <td width="33%" align="center" valign="top">
-      <img src="https://streak-stats.demolab.com/?user=suresh6602&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
+      <img src="https://streak-stats.vercel.app/?user=suresh6602&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
     </td>
     <td width="33%" align="center" valign="top">
       <img src="https://quickchart.io/chart?bkg=white&width=350&height=170&c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22TypeScript%2035.4%25%22%2C%22JavaScript%2028.2%25%22%2C%22Python%2018.5%25%22%2C%22HTML%2012.1%25%22%2C%22CSS%205.8%25%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B35.4%2C28.2%2C18.5%2C12.1%2C5.8%5D%2C%22backgroundColor%22%3A%5B%22%233178c6%22%2C%22%23f1e05a%22%2C%22%233572a5%22%2C%22%23e34c26%22%2C%22%23563d7c%22%5D%7D%5D%7D%2C%22options%22%3A%7B%22legend%22%3A%7B%22position%22%3A%22left%22%2C%22labels%22%3A%7B%22fontStyle%22%3A%22bold%22%2C%22fontSize%22%3A11%7D%7D%2C%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Most%20Used%20Languages%22%2C%22fontColor%22%3A%22%230066cc%22%2C%22fontSize%22%3A14%7D%7D%7D" width="100%" alt="Most Used Languages" />
