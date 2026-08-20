@@ -2,7 +2,6 @@
 
 <img src="./assets/developer_hero_banner.png" width="100%" alt="Full Stack & AI Engineer Banner" style="border-radius: 10px;" />
 
-<br/><br/>
 
 # Sureshkumar R
 
@@ -232,9 +231,3 @@ I am actively open to **Full Stack / SDE-II / AI Engineering roles**, **AI-first
 [![Resume](https://img.shields.io/badge/Download_Resume-PDF-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/drive/folders/1I4UlRwRDbbzf5ll3eBITZulbyUgnFcSc)
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sureshkumar-r-dev)
 [![Gmail](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sureshkumar27082002@gmail.com)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=suresh6602&label=Profile+Views&color=36bcf7&style=flat-square)
-
-</div>
