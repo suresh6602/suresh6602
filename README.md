@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./assets/developer_hero_banner.png" width="100%" alt="Full Stack & AI Engineer Banner" style="border-radius: 10px;" />
+
+<br/><br/>
+
 # Sureshkumar R
 
 ### Full Stack Engineer · AI Systems & Multi-LLM Agent Developer · PWA Specialist
@@ -19,11 +23,22 @@
 
 ## ⚡ About Me
 
-Full Stack Engineer with **3+ years of experience** building scalable, high-performance web applications, multi-LLM agent workflows, and offline-first PWAs. Currently developing **OneReach (OmniReach AI)** at OneData Software Solutions, focusing on multi-channel sales outreach, agentic AI research pipelines, and cloud infrastructure.
-
-- 🚀 **Proven Track Record**: Delivered enterprise & government software adopted across 2 state governments, serving **10,000+ active students**.
-- 🤖 **AI Systems Engineering**: Experience orchestrating stateful multi-agent LLM pipelines (**LangGraph, Claude 3.5 Sonnet, GPT-4o, Gemini, AWS Bedrock**), vector search (**pgvector**), and voice AI WebSockets.
-- ⚙️ **Performance & Architecture**: Reduced JS bundle sizes by **82%** (2.5 MB → 450 KB), optimized rendering speed by **60%**, and saved **$4,200+** in production API spend.
+<table width="100%" border="0">
+  <tr>
+    <td width="64%" valign="top">
+      Full Stack Engineer with <b>3+ years of experience</b> building scalable, high-performance web applications, multi-LLM agent workflows, and offline-first PWAs. Currently developing <b>OneReach (OmniReach AI)</b> at OneData Software Solutions, focusing on multi-channel sales outreach, agentic AI research pipelines, and cloud infrastructure.
+      <br/><br/>
+      <ul>
+        <li>🚀 <b>Proven Track Record</b>: Delivered enterprise & government software adopted across 2 state governments, serving <b>10,000+ active students</b>.</li>
+        <li>🤖 <b>AI Systems Engineering</b>: Experience orchestrating stateful multi-agent LLM pipelines (<b>LangGraph, Claude 3.5 Sonnet, GPT-4o, Gemini, AWS Bedrock</b>), vector search (<b>pgvector</b>), and voice AI WebSockets.</li>
+        <li>⚙️ <b>Performance & Architecture</b>: Reduced JS bundle sizes by <b>82%</b> (2.5 MB → 450 KB), optimized rendering speed by <b>60%</b>, and saved <b>$4,200+</b> in production API spend.</li>
+      </ul>
+    </td>
+    <td width="36%" align="center" valign="middle">
+      <img src="./assets/ai_developer_illustration.png" width="100%" alt="Global AI Network & Full Stack Architecture" style="border-radius: 12px;" />
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -233,42 +248,6 @@ Full Stack Engineer with **3+ years of experience** building scalable, high-perf
 </table>
 
 <br/>
-
-<!-- Detailed Specialization & Productive Time -->
-<table width="100%">
-  <tr>
-    <td width="52%" valign="top">
-      <h4 align="center">📊 Core Engineering Specialization</h4>
-      <br/>
-      <p align="left">
-        <b>Frontend & UI Systems</b> <i>(React 18, Vite, TypeScript, TailwindCSS)</i>
-        <br/>
-        <img src="https://geps.dev/progress/90?color=3178C6" width="100%" alt="Frontend Systems 90%" />
-      </p>
-      <p align="left">
-        <b>AI Agentic Workflows</b> <i>(LangGraph, Claude 3.5, GPT-4o, pgvector)</i>
-        <br/>
-        <img src="https://geps.dev/progress/85?color=CC785C" width="100%" alt="AI Agent Workflows 85%" />
-      </p>
-      <p align="left">
-        <b>Backend & Data Engineering</b> <i>(Node.js ESM, Express, Drizzle ORM, Postgres)</i>
-        <br/>
-        <img src="https://geps.dev/progress/88?color=4169E1" width="100%" alt="Backend Engineering 88%" />
-      </p>
-      <p align="left">
-        <b>PWAs & Mobile Systems</b> <i>(Service Workers, React Native, Push Sync)</i>
-        <br/>
-        <img src="https://geps.dev/progress/80?color=5A0FC8" width="100%" alt="PWA & Mobile 80%" />
-      </p>
-    </td>
-    <td width="48%" valign="top" align="center">
-      <h4 align="center">⚡ Productive Time & Commit Rhythm</h4>
-      <br/>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=suresh6602&theme=tokyonight&utcOffset=+5.30" width="100%" alt="Productive Time Commitment" />
-    </td>
-  </tr>
-</table>
-
 </div>
 
 ---
