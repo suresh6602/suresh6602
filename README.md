@@ -61,12 +61,9 @@
 
 ### 🔹 **Full Stack Engineer** | OneData Software Solutions
 *Jun 2026 – Present | Coimbatore, India*
-* **Multi-Channel Platform**: Designed and developed **OneReach (OmniReach AI)**, a multi-tenant sales outreach platform automating LinkedIn, Email (Gmail/Outlook), SMS, and WhatsApp messaging.
-* **Frontend Architecture**: Built high-performance React 18/TypeScript interfaces using **Vite**, **TailwindCSS**, and **TanStack React Query** for complex data visualization and multi-channel campaign management.
-* **Backend & Multi-Tenancy**: Architected a Node.js/Express backend (ESM) using **Drizzle ORM** and **PostgreSQL (pgvector)** with strict multi-tenant workspace isolation and background worker queues (`pg-boss`).
-* **Multi-LLM Agent Workflows**: Orchestrated Multi-LLM agents (**LangGraph, OpenAI, Claude 3.5, Gemini**) for automated prospect discovery, company enrichment (Apollo API), and hyper-personalized message generation.
-* **Voice AI & Extensions**: Developed a real-time **WebSocket bridge** enabling low-latency voice AI, cross-platform mobile apps (**React Native**) for offline lead capture, and a **Chrome Extension** for inline LinkedIn prospect research.
-* **Cost Engineering**: Saved **$4,200+ in production API costs** by adding caching and execution rate-limiting for Apollo enrichment and Google Places API queries.
+* **Multi-Tenant Platform & Backend**: Architected **OneReach (OmniReach AI)** using Node.js (ESM), Express, **Drizzle ORM**, and **PostgreSQL (pgvector)** with `pg-boss` queues, automating LinkedIn, Email, SMS, and WhatsApp messaging.
+* **Multi-LLM Agent Workflows**: Orchestrated autonomous prospect discovery & enrichment using **LangGraph**, Claude 3.5 Sonnet, GPT-4o, Gemini, and Apollo API.
+* **Voice AI & Cost Engineering**: Built real-time **WebSocket voice AI bridge**, React Native mobile apps, and Chrome extension; saved **$4,200+** in production API spend via intelligent caching.
 
 ### 🔹 **Software Engineer (SDE-II)** | NavaDhiti Business Consultancy Pvt. Ltd.
 *Jul 2023 – Mar 2026 | Bangalore, India*
@@ -134,44 +131,18 @@
 > *Multi-channel messaging engine, LangGraph agent research pipeline & Voice AI WebSocket bridge*
 
 ```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                   OneReach (OmniReach AI) Full System & Agent Architecture                             │
-└────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-                                                    │
- ┌──────────────────────────────────────────────────┴──────────────────────────────────────────────────┐
- │                                  CLIENT INTERFACES & ENTRY POINTS                                   │
- │  ┌─────────────────────────────┐    ┌─────────────────────────────┐    ┌─────────────────────────┐  │
- │  │ React 18 + Vite Web Dashboard│    │ React Native Mobile App     │    │ Chrome Extension        │  │
- │  │ (TanStack Query, Tailwind)  │    │ (Offline Lead Capture)      │    │ (Inline LinkedIn Research)│
- │  └──────────────┬──────────────┘    └──────────────┬──────────────┘    └────────────┬────────────┘  │
- └─────────────────┼──────────────────────────────────┼────────────────────────────────┼───────────────┘
-                   │                                  │                                │
-                   ▼                                  ▼                                ▼
- ┌─────────────────────────────────────────────────────────────────────────────────────────────────────┐
- │                                  NODE.JS / EXPRESS BACKEND (ESM)                                    │
- │   - Multi-Tenant Workspace Isolation          - Low-Latency Voice AI WebSocket Bridge               │
- │   - Drizzle ORM + PostgreSQL (pgvector)          - Worker Queues (pg-boss) & Stripe Billing            │
- └────────────────────────────────────────────────────┬────────────────────────────────────────────────┘
-                                                      │
-         ┌────────────────────────────────────────────┼───────────────────────────────────────────┐
-         │                                            │                                           │
-         ▼                                            ▼                                           ▼
-┌─────────────────────────────┐        ┌─────────────────────────────┐             ┌────────────────────────────┐
-│ MULTI-LLM AGENT ENGINE      │        │ MULTI-CHANNEL AUTOMATION    │             │ DATA & API ENRICHMENT      │
-│ - LangGraph Cyclic Graphs   │        │ - LinkedIn & Email (Gmail)  │             │ - Apollo API Enrichment    │
-│ - Claude 3.5, GPT-4o        │        │ - SMS & WhatsApp Messaging  │             │ - Google Places Rate-Limit │
-│ - Gemini & AWS Bedrock      │        │ - High Deliverability Queue │             │ - ($4,200+ Cost Saved)     │
-└─────────────────────────────┘        └─────────────────────────────┘             └────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│ React 18 / Vite / TS  ──► Node.js ESM Backend (Drizzle + pgvector) ──► Multi-Tenant DB   │
+│ React Native / Chrome ──► WebSocket Voice AI Bridge ──► LangGraph Multi-LLM Agents      │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-* **Multi-Tenant Messaging Automation**: Built a unified multi-tenant outreach platform automating **LinkedIn**, **Email (Gmail/Outlook)**, **SMS**, and **WhatsApp** messaging.
-* **Modern Frontend Stack**: Developed responsive React 18/TypeScript web apps using **Vite**, **TailwindCSS**, and **TanStack React Query** for complex campaign analytics and visualization.
-* **Backend Architecture**: Designed a Node.js/Express (ESM) microservices architecture backed by **Drizzle ORM** and **PostgreSQL (`pgvector`)** with strict workspace isolation and background worker queues (`pg-boss`).
-* **Multi-LLM Agent Workflows**: Orchestrated Multi-LLM agents (**LangGraph**, **Claude 3.5 Sonnet**, **OpenAI GPT-4o**, **Gemini**, **AWS Bedrock**) for automated prospect discovery, Apollo API enrichment, and personalized message generation.
-* **Voice AI & Extensions**: Built a low-latency real-time **WebSocket voice AI bridge**, **React Native** cross-platform mobile apps for offline lead capture, and a **Chrome Extension** for inline LinkedIn prospect research.
-* **Quality & Billing**: Integrated **Stripe** subscription management, **Docker** containerization, and **Playwright** end-to-end testing suites.
+* **Multi-Channel Automation**: Unified LinkedIn, Email (Gmail/Outlook), SMS & WhatsApp messaging engine with strict multi-tenant workspace isolation (`pg-boss` queues).
+* **Agentic AI & Enrichment**: Stateful **LangGraph** multi-agent pipelines for lead discovery & Apollo API company data enrichment.
+* **Real-Time & Cross-Platform**: Low-latency WebSocket Voice AI bridge, Chrome extension for LinkedIn research, and React Native offline lead capture.
+* **Cost Engineering & Impact**: Saved **$4,200+ in production API spend** via intelligent query caching & rate limiting.
 
-`React 18` `TypeScript` `Node.js (ESM)` `Express` `Drizzle ORM` `PostgreSQL` `pgvector` `LangGraph` `OpenAI` `Claude 3.5` `AWS Bedrock` `WebSockets` `React Native` `Chrome Extension` `TailwindCSS` `Docker` `Stripe` `Playwright` `pg-boss`
+`React 18` `TypeScript` `Node.js (ESM)` `Express` `Drizzle ORM` `PostgreSQL` `pgvector` `LangGraph` `OpenAI` `Claude 3.5` `AWS Bedrock` `WebSockets` `React Native` `Chrome Extension` `TailwindCSS` `Docker` `Stripe` `Playwright`
 
 ---
 
